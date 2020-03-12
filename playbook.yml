@@ -24,5 +24,6 @@
         state: started
         published_ports:
           - 83:80
-        recreate:yes
-        interactive:yes
+        recreate: yes
+        interactive: yes
+        detach: yes
